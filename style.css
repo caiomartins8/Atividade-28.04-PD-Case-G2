@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+section {
+    border: solid 4px rgb(255, 37, 37);
+    width: 37vw;
+    height: 30vh;
+    margin-top: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section p {
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+}
+
+section button {
+    border: none;
+    background-color: rgb(255, 37, 37);
+    width: 11vw;
+    height: 4vh;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+}
+
+#secpapa, #secespanhasemluz, #secbrasileirao, #seccruzeiro {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#secpapa {
+    background-image: url(imagens/papa.jpeg);
+}
+
+#secespanhasemluz {
+    background-image: url(imagens/espanhasemluz.jpeg);
+}
+
+#secbrasileirao {
+    background-image: url(imagens/brasileirao.jpeg);
+}
+
+#seccruzeiro {
+    background-image: url(imagens/cruzeiro.jpeg);
+}
+
+main {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(255, 37, 37);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(255, 37, 37);
+    font-size: 80px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.bordao {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    background: 100% rgb(255, 37, 37);
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+footer nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    list-style-type: none;
+}
+
+footer li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+footer div img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+article {
+    margin-top: 20px;
+    width: 17vw;
+    height: 30vh;
+    border: solid 5px rgb(255, 37, 37);
+    border-radius: 30px;
+    text-align: center;
+}
+
+article a img {
+    width: 14px;
+    height: 13px;
+}
+
+article a {
+    color: rgb(255, 37, 37);
+}
+
+article img {
+    width: 17vw;
+    height: 13vh;
+    border-radius: 24px 24px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnclaro, #btnescuro {
+    width: 12vw;
+    height: 9vh;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#btnclaro {
+    border: solid 5px white;
+    background-color: rgb(255, 37, 37);
+    color: white;
+}
+
+#btnescuro {
+    border: solid 5px white;
+    background-color: white;
+    color: rgb(255, 37, 37);
+}
+
+form {
+    margin: 50px auto;
+    border: solid 5px rgb(255, 37, 37);
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+form div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+form button {
+    border: solid 4px rgb(255, 37, 37);
+    background-color: white;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(255, 37, 37);
+}
+
+input, select {
+    width: 140px;
+    height: 40px;
+    border: solid 2px rgb(255, 37, 37);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2:hover, h1:hover, header button:hover, section:hover, section button:hover, article:hover, footer img:hover, header li:hover {
+    transition: 0.6s ease-in-out;
+}
+
+h2:hover {
+    transform: scale(1.1);
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
+
+header button:hover, section button:hover {
+    opacity: 0.5;
+}
+
+section:hover, article:hover {
+    transform: scale(0.9);
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+}
+
+header li:hover {
+    transform: scale(1.1);
+}
